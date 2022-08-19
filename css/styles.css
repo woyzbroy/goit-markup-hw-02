@@ -1,12 +1,23 @@
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
 a {
   text-decoration: none;
 }
-
-.link {
+.web-studio {
   font-size: 26px;
   font-weight: bold;
 }
-
+.social-links .link {
+  font-size: 14px;
+  font-weight: 500;
+  color: #212121;
+}
+.social-links .link:hover,
+.social-links .link:active {
+  color: #2196f3;
+}
 .blue-text {
   color: #2196f3;
 }
@@ -14,12 +25,6 @@ a {
 .black-text {
   color: #000000;
 }
-
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-}
-
 .order-button {
   position: absolute;
   width: 200px;
