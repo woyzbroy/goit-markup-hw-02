@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto', 'Raleway', sans-serif;
+}
 h1 {
   text-align: center;
   text-transform: uppercase;
@@ -12,6 +15,8 @@ a {
 .social-links .link {
   font-size: 14px;
   font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #212121;
 }
 .social-links .link:hover,
