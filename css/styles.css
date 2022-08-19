@@ -2,8 +2,17 @@ a {
   text-decoration: none;
 }
 
+.link {
+  font-size: 26px;
+  font-weight: bold;
+}
+
 .blue-text {
   color: #2196f3;
+}
+
+.black-text {
+  color: #000000;
 }
 
 h1 {
