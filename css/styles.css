@@ -37,6 +37,10 @@ a {
 .contact-links {
   color: #757575;
 }
+.contact-links:hover,
+.contact-links:active {
+  color: #2196f3;
+}
 .order-button {
   position: absolute;
   width: 200px;
