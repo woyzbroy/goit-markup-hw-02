@@ -1,5 +1,7 @@
 body {
   font-family: 'Roboto', 'Raleway', sans-serif;
+  background-color: #e5e5e5;
+  color: #2f303a;
 }
 h1 {
   text-align: center;
@@ -15,23 +17,25 @@ a {
   line-height: 1.9;
   letter-spacing: 0.03em;
 }
-.social-links .link {
+.blue-text {
+  color: #2196f3;
+}
+.black-text {
+  color: #000000;
+}
+.social-links {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.social-links .link:hover,
-.social-links .link:active {
+.social-links:hover,
+.social-links:active {
   color: #2196f3;
 }
-.blue-text {
-  color: #2196f3;
-}
-
-.black-text {
-  color: #000000;
+.contact-links {
+  color: #757575;
 }
 .order-button {
   position: absolute;
