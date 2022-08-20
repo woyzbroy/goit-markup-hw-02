@@ -3,10 +3,6 @@ body {
   background-color: #e5e5e5;
   color: #2f303a;
 }
-h1 {
-  text-align: center;
-  text-transform: uppercase;
-}
 a {
   text-decoration: none;
 }
@@ -23,23 +19,51 @@ a {
 .black-text {
   color: #000000;
 }
-.social-links {
+.social-links .link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
 }
-.social-links:hover,
-.social-links:active {
+.social-links .link:hover,
+.social-links .link:focus {
+  color: #2196f3;
+}
+.current-link {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #2196f3;
+}
+.current-link-2 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #2196f3;
 }
 .contact-links {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   color: #757575;
 }
 .contact-links:hover,
-.contact-links:active {
+.contact-links:focus {
   color: #2196f3;
+}
+.main-heading {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #2f303a;
 }
 .order-button {
   position: absolute;
