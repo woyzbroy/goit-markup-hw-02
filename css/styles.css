@@ -75,7 +75,8 @@ a {
   background-color: #2196f3;
 }
 .order-button:hover {
-  color: #ffffff;
+  color: #000000;
+  background-color: #ffffff;
 }
 .portfolio-button {
   cursor: pointer;
@@ -87,6 +88,7 @@ a {
   background-color: #ffffff;
 }
 .portfolio-button:hover {
+  color: #ffffff;
   background-color: #2196f3;
 }
 .paragraph-heading {
