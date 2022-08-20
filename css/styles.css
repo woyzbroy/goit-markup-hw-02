@@ -62,7 +62,6 @@ a {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  vertical-align: top;
   color: #ffffff;
   background-color: #2f303a;
 }
@@ -84,9 +83,49 @@ a {
   color: #212121;
 }
 .paragraph-text {
-  font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
+}
+.secondary-heading {
+  font-weight: bold;
+  font-size: 36px;
+  text-align: center;
+  line-height: 1.16;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.worker-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+.job-name {
+  font-size: 16px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.bottom-background {
+  background-color: #2f303a;
+}
+.address-text {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+.contact-links-footer {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+.contact-links-footer:hover {
+  color: #2196f3;
 }
