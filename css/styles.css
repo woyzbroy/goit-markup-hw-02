@@ -3,8 +3,8 @@ body {
   background-color: #e5e5e5;
   color: #212121;
 }
-a {
-  text-decoration: none;
+img {
+  display: block;
 }
 .web-studio {
   font-family: 'Raleway';
@@ -12,6 +12,7 @@ a {
   font-weight: 700;
   line-height: 1.9;
   letter-spacing: 0.03em;
+  text-decoration: none;
 }
 .blue-text {
   color: #2196f3;
@@ -25,24 +26,19 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #212121;
+  text-decoration: none;
 }
 .social-links .link:hover,
 .social-links .link:focus {
   color: #2196f3;
 }
-.current-link {
+.social-links .current-link {
   font-size: 14px;
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #2196f3;
-}
-.current-link-2 {
-  font-size: 14px;
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  color: #2196f3;
+  text-decoration: none;
 }
 .contact-links {
   font-weight: 500;
@@ -50,6 +46,7 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: #757575;
+  text-decoration: none;
 }
 .contact-links:hover,
 .contact-links:focus {
@@ -142,6 +139,7 @@ a {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
 }
 .contact-links-footer:hover {
   color: #2196f3;
