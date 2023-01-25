@@ -210,3 +210,6 @@ body {
   background-color: var(--selectionColor);
   color: var(--colorWhite);
 }
+.image-list {
+  list-style: none;
+}
