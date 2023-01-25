@@ -7,6 +7,7 @@
   --socialsColor: #212121;
   --colorWhite: #ffffff;
   --colorContactLinks: #999999;
+  --portfolioButton: #f5f4fa;
 }
 body {
   background-color: var(--backgroundColorMain);
@@ -118,6 +119,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--fontColorSecondary);
 }
+
 .secondary-heading {
   font-family: 'Roboto';
   font-weight: 700;
@@ -143,6 +145,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--fontColorSecondary);
 }
+
 .footer-background {
   background-color: var(--backgroundColorSecondary);
 }
@@ -185,4 +188,16 @@ body {
 .contact-link-footer-underline:hover,
 .contact-link-footer-underline:focus {
   color: var(--selectionColor);
+}
+
+.portfolio-button {
+  background-color: var(--portfolioButton);
+  border-radius: 4px;
+  color: var(--socialsColor);
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
