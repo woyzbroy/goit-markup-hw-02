@@ -22,3 +22,6 @@ body {
 .social-links .link:focus {
   color: var(--selectionColor);
 }
+.current-link {
+  color: var(--selectionColor);
+}
