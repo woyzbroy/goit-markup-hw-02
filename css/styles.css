@@ -1,7 +1,15 @@
 :root {
   --backgroundColorMain: #e5e5e5;
+  --backgroundColorSecondary: #2f303a;
+  --fontColorMain: #000000;
+  --fontColorSecondary: #757575;
+  --selectionColor: #2196f3;
+  --socialsColor: #212121;
+  --colorWhite: #ffffff;
+  --colorContactLinks: #999999;
 }
 
 body {
   background-color: var(--backgroundColorMain);
+  font-family: 'Roboto', 'Raleway', sans-serif;
 }
