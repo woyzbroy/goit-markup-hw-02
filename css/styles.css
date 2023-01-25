@@ -8,12 +8,25 @@
   --colorWhite: #ffffff;
   --colorContactLinks: #999999;
 }
-
 body {
   background-color: var(--backgroundColorMain);
   font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
+.web-studio {
+  font-family: 'Raleway';
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.9;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+}
+.blue-text {
+  color: var(--selectionColor);
+}
+.black-text {
+  color: var(--fontColorMain);
+}
 .social-links .link:hover,
 .social-links .link:focus {
   color: var(--selectionColor);
