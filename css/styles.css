@@ -27,10 +27,10 @@ body {
 .black-text {
   color: var(--fontColorMain);
 }
+
 .social-links {
   list-style: none;
 }
-
 .social-links .link:hover,
 .social-links .link:focus {
   color: var(--selectionColor);
@@ -52,4 +52,5 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--socialsColor);
 }
