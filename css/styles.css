@@ -100,3 +100,30 @@ body {
   background-color: var(--colorWhite);
   color: var(--fontColorMain);
 }
+
+.paragraph-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--socialsColor);
+}
+.paragraph-text {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--fontColorSecondary);
+}
+.secondary-heading {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.67;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--socialsColor);
+}
