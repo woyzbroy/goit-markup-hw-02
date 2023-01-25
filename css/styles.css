@@ -127,3 +127,21 @@ body {
   letter-spacing: 0.03em;
   color: var(--socialsColor);
 }
+.worker-name {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--socialsColor);
+}
+.job-name {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 11.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--fontColorSecondary);
+}
