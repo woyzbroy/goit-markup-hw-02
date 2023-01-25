@@ -31,3 +31,6 @@ body {
 .social-links .link {
   text-decoration: none;
 }
+.social-links {
+  list-style: none;
+}
