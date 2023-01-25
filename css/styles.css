@@ -27,19 +27,29 @@ body {
 .black-text {
   color: var(--fontColorMain);
 }
+.social-links {
+  list-style: none;
+}
+
 .social-links .link:hover,
 .social-links .link:focus {
   color: var(--selectionColor);
 }
-.current-link {
-  color: var(--selectionColor);
-}
 .social-links .current-link {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--selectionColor);
 }
 .social-links .link {
   text-decoration: none;
-}
-.social-links {
-  list-style: none;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
