@@ -45,7 +45,6 @@ body {
   color: var(--selectionColor);
 }
 .social-links .link {
-  text-decoration: none;
   font-family: 'Roboto';
   font-size: 14px;
   font-weight: 500;
