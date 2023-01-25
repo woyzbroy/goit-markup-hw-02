@@ -25,3 +25,9 @@ body {
 .current-link {
   color: var(--selectionColor);
 }
+.social-links .current-link {
+  text-decoration: none;
+}
+.social-links .link {
+  text-decoration: none;
+}
