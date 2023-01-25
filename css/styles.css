@@ -72,6 +72,17 @@ body {
   color: var(--fontColorSecondary);
 }
 
+.main-heading {
+  font-family: 'Roboto';
+  font-size: 44px;
+  font-weight: 900;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--colorWhite);
+  background-color: var(--backgroundColorSecondary);
+}
 .main-button {
   cursor: pointer;
 }
