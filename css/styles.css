@@ -14,10 +14,6 @@ body {
   font-family: 'Roboto', 'Raleway', sans-serif;
 }
 
-.social-links .current-link:hover,
-.social-links .current-link:focus {
-  color: var(--selectionColor);
-}
 .social-links .link:hover,
 .social-links .link:focus {
   color: var(--selectionColor);
