@@ -11,6 +11,7 @@
 body {
   background-color: var(--backgroundColorMain);
   font-family: 'Roboto', 'Raleway', sans-serif;
+  color: var(--fontColorMain);
 }
 
 .web-studio {
